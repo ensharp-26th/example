@@ -1,0 +1,49 @@
+# --- Java ---
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- 빌드 도구 (Maven / Gradle) ---
+target/
+bin/
+build/
+.gradle/
+.mtl.bin
+.incremental/
+out/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+cmake-build-*/
+
+# --- Visual Studio Code ---
+.vscode/
+*.code-workspace
+.history/
+
+# --- Eclipse ---
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+*.beaninfo
+
+# --- OS 관련 (Mac / Windows) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 기타 ---
+temp/
+tmp/
